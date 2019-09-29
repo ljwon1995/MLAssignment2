@@ -1,4 +1,4 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
+
 
 # Assignment 02
 
@@ -6,15 +6,6 @@
 Build a binary classifier for human versus horse based on logistic regression using the dataset that consists of human and horse images
 ```
 
-## Binary classification based on logistic regression
-
-$`(x_i, y_i)`$ denotes a pair of a training example and $`i = 1, 2, \cdots, n`$
-
-$`\hat{y}_i = \sigma(z_i)`$ where $`z_i = w^T x_i + b`$ and $`\sigma(z) = \frac{1}{1 + \exp(-z)}`$
-
-The loss function is defined by $`\mathcal{L} = \frac{1}{n} \sum_{i=1}^n f_i(w, b)`$
-
-$`f_i(w, b) = - y_i \log \hat{y}_i - (1 - y_i) \log (1 - \hat{y}_i) `$
 
 ## Dataset
 
